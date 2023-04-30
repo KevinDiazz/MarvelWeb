@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 20rem;
+  border-radius: 1rem;
+  z-index: 1;
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem;
+}
+.spiderman {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 24rem;
+  margin: 2rem;
+}
+button {
+  width: 8rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  color: red;
+  font-size: 15pt;
+  background-color: rgb(253, 253, 253);
+  box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem black;
+  border-color: red;
+  margin-top: 1rem;
+}
+button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+img {
+  z-index: 1rem;
+  width: 15rem;
+}
+img:hover {
+  transform: scale(1.2);
+}
+h3 {
+  width: 15rem;
+  text-align: center;
+  font-family: "Ultra", serif;
+  font-size: 16pt;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.marvelLogo1:hover {
+  transform: none;
+}
+.marvelLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(imgs/Universo_Marvel.webp);
+  height: 30rem;
+  margin-bottom: 2rem;
+}
+.marvelLogo2 {
+  width: 33rem;
+  box-shadow: none;
+  padding: 2rem;
+  align-self: center;
+  margin-bottom: 15rem;
+}
+.marvelLogo2:hover {
+  transform: none;
+}
